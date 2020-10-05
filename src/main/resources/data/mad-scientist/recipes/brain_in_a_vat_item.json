@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ggg",
+    "gbg",
+    "iii"
+  ],
+  "key":
+  {
+    "g":
+    {
+      "item": "minecraft:glass"
+    },
+    "b":
+    {
+      "item": "mad-scientist:brain_item"
+    },
+    "i":
+    {
+      "tag": "forge:ingots/iron"
+    }
+  },
+  "result":
+  {
+    "item": "mad-scientist:brain_in_a_vat_block_item"
+  }
+}

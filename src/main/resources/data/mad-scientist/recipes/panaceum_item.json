@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "iii",
+    "bgb",
+    "iii"
+  ],
+  "key":
+  {
+    "g":
+    {
+      "item": "mad-scientist:transmutated_gold_item"
+    },
+    "b":
+    {
+      "item": "minecraft:glass_bottle"
+    },
+    "i":
+    {
+      "tag": "forge:ingots/iron"
+    }
+  },
+  "result":
+  {
+    "item": "mad-scientist:panaceum_block_item"
+  }
+}

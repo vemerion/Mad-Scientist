@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "www",
+    "w w",
+    "   "
+  ],
+  "key":
+  {
+    "w":
+    {
+      "tag": "minecraft:wool"
+    }
+  },
+  "result":
+  {
+    "item": "mad-scientist:mad_scientist_hair_item"
+  }
+}

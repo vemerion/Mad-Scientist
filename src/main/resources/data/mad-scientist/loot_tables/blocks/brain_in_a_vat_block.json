@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:copy_name",
+              "source": "block_entity"
+            },
+            {
+              "function": "minecraft:copy_nbt",
+              "source": "block_entity",
+              "ops": [
+                {
+                  "source": "brokenStage",
+                  "target": "BlockEntityTag.brokenStage",
+                  "op": "replace"
+                },
+                {
+                  "source": "ticksExisted",
+                  "target": "BlockEntityTag.ticksExisted",
+                  "op": "replace"
+                }
+              ]
+            }
+          ],
+          "name": "mad-scientist:brain_in_a_vat_block_item"
+        }
+      ]
+    }
+  ]
+}         
